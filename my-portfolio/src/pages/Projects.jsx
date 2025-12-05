@@ -88,6 +88,15 @@ export default function Projects() {
                         </div>
                       </a>
                     )}
+                    {selectedProject.link && (
+                      <a href={selectedProject.link} className="modal-link" target="_blank" rel="noopener noreferrer">
+                        <span className="link-icon">🎮</span>
+                        <div>
+                          <div className="link-title">Conteudo</div>
+                          <div className="link-subtitle">Ver conteudo</div>
+                        </div>
+                      </a>
+                    )}
                     {selectedProject.itch && (
                       <a href={selectedProject.itch} className="modal-link" target="_blank" rel="noopener noreferrer">
                         <span className="link-icon">🎮</span>

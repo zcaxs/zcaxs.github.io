@@ -16,8 +16,59 @@ export const data = {
       description: "O jogo acontece debaixo d'água, onde o jogador enfrenta hordas de criaturas marinhas perigosas. Para sobreviver, é preciso ganhar XP derrotando inimigos e avançando pelas fases, o que ajuda a evoluir e se tornar mais forte. O objetivo final é alcançar e derrotar o boss final, uma criatura mítica das profundezas do oceano. À medida que o jogador avança, as hordas ficam maiores e mais difíceis, exigindo cada vez mais estratégia e habilidade para vencer.",
       image: "images/Capa.png",
       video: "",
+      link: "",
       github: "",
       itch: "https://globalgamejam.org/games/2025/bubbles-survival-1"
+    },
+     {
+      id: 2,
+      title: "Satan's Miracle",
+      description: "Ainda em desenvolvimento neste momento!",
+      image: "",
+      video: "",
+      link: "",
+      github: "",
+      itch: ""
+    },
+    {
+      id: 3,
+      title: "Musica",
+      description: "Musicas produzidas por mim",
+      image: "images/musica.png",
+      video: "",
+      link: "https://on.soundcloud.com/zBT9m8hNTU3JuWaVMH",
+      github: "",
+      itch: ""
+    },
+    {
+      id: 4,
+      title: "A Broken Family",
+      description: "Ainda em desenvolvimento neste momento!",
+      image: "images/Icon.png",
+      video: "",
+      link: "https://www.youtube.com/@vacpontodev",
+      github: "",
+      itch: ""
+    },
+    {
+      id: 5,
+      title: "Site Portofolio",
+      description: 'Após algumas pesquisas e tentivas de utilizar site para criar um website para o meu portofolio pensei para mim mesmo "Porque não fazer eu mesmo site? Sem custos, posso personaliza-lo da forma que eu o imaginei e é otimo exemplo para demonstrar as minhas capacidades como programador"',
+      image: "images/Site.png",
+      video: "",
+      link: "https://zcaxs.github.io",
+      github: "https://github.com/zcaxs/zcaxs.github.io",
+      itch: ""
+    },
+    {
+      id: 6,
+      title: "Lábia 2025 - Rozul (Direitos Humanos)",
+      description: 'Projetos desenvolvidos para o ambito escolar durante a semana labia',
+      image: "images/Labia.png",
+      video: "images/Demo.mp4",
+      link: "",
+      github: "",
+      itch: ""
     }
   ],
   skills: [

@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <div className="skills-container">
       <div className="container">
-        <h2>Minhas Habilidades</h2>
+        <h2>As Minhas Competências</h2>
         <p className="section-description">Tecnologias e ferramentas que domino</p>
         
         <div className="skills-grid">
