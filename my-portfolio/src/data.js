@@ -7,15 +7,15 @@ export const data = {
     instagram: "https://www.instagram.com/vacponto/",
     linkedin: "https://www.linkedin.com/in/tiago-santos-563337389/",
     youtube: "https://www.youtube.com/@vacpontodev",
-    profilePhoto: "C:/Repositorios/zcaxs.github.io/images/pfp.png"
+    profilePhoto: "images/pfp.png"
   },
   projects: [
     {
       id: 1,
       title: "Bubbles survival",
       description: "O jogo acontece debaixo d'água, onde o jogador enfrenta hordas de criaturas marinhas perigosas. Para sobreviver, é preciso ganhar XP derrotando inimigos e avançando pelas fases, o que ajuda a evoluir e se tornar mais forte. O objetivo final é alcançar e derrotar o boss final, uma criatura mítica das profundezas do oceano. À medida que o jogador avança, as hordas ficam maiores e mais difíceis, exigindo cada vez mais estratégia e habilidade para vencer.",
-      image: "C:/Repositorios/zcaxs.github.io/images/Capa.png",
-      video: "C:\\Repositorios\\zcaxs.github.io\\images",
+      image: "images/Capa.png",
+      video: "",
       github: "",
       itch: "https://globalgamejam.org/games/2025/bubbles-survival-1"
     }

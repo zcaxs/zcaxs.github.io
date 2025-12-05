@@ -14,9 +14,15 @@ export default function Home() {
           <div className="profile-photo-container">
             <div className="profile-photo-wrapper">
               <img 
-                src={m.profilePhoto || "/default-profile.jpg"} 
+                src="/images/pfp.png" 
                 alt={`Foto de ${m.name}`}
                 className="profile-photo"
+                onError={(e) => {
+                  console.error("Image failed to load!");
+                  console.log("Trying to load from:", e.target.src);
+                  e.target.style.border = "3px solid red";
+                }}
+                onLoad={() => console.log("Image loaded successfully!")}
               />
               <div className="photo-frame"></div>
             </div>
