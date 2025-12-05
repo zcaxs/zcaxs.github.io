@@ -1,12 +1,12 @@
 {
-  "name": "my-portfolio",
-  "private": true,
+    "name": "my-portfolio",
   "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://zcaxs.github.io",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite dev",
     "build": "vite build",
-    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
