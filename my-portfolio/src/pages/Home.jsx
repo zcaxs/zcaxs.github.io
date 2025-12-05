@@ -14,7 +14,7 @@ export default function Home() {
           <div className="profile-photo-container">
             <div className="profile-photo-wrapper">
               <img 
-                src="/images/pfp.png" 
+                src={`${import.meta.env.BASE_URL}images/pfp.png`}
                 alt={`Foto de ${m.name}`}
                 className="profile-photo"
                 onError={(e) => {
