@@ -258,6 +258,46 @@
   margin-top: 0.1rem;
 }
 
+.modal-role {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.modal-role h3 {
+  margin-bottom: 0.75rem;
+  color: var(--white);
+  font-size: 1.3rem;
+}
+
+.role-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(124, 58, 237, 0.1));
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(14, 165, 233, 0.3);
+  color: var(--white);
+  transition: var(--transition);
+}
+
+.role-badge:hover {
+  border-color: var(--primary);
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.15), rgba(124, 58, 237, 0.15));
+  transform: translateX(3px);
+}
+
+.role-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+.role-text {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
 /* Animations */
 @keyframes fadeIn {
   from {
@@ -312,6 +352,23 @@
   
   .modal-link {
     padding: 1rem;
+  }
+
+  .modal-role h3 {
+    font-size: 1.2rem;
+  }
+  
+  .role-badge {
+    padding: 0.75rem;
+    gap: 0.5rem;
+  }
+  
+  .role-icon {
+    font-size: 1.2rem;
+  }
+  
+  .role-text {
+    font-size: 0.9rem;
   }
 }
 
@@ -373,6 +430,18 @@
   
   .link-subtitle {
     font-size: 0.8rem;
+  }
+
+  .modal-role h3 {
+    font-size: 1.1rem;
+  }
+  
+  .role-badge {
+    padding: 0.6rem;
+  }
+  
+  .role-text {
+    font-size: 0.85rem;
   }
 }
 

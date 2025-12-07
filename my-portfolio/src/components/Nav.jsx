@@ -8,7 +8,7 @@ export default function Nav() {
         <Link to="/">Home</Link>
         <Link to="/projects">Projetos</Link>
         <Link to="/skills">Conhecimento</Link>
-        <Link to="/research">Pesquisa</Link>
+        <Link to="/research">Educação</Link>
       </div>
     </nav>
   );

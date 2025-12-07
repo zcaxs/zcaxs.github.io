@@ -43,7 +43,6 @@ export default function Projects() {
         </div>
       </div>
 
-      {/* Modal/Expanded View */}
       {selectedProject && (
         <div className="project-modal-overlay" onClick={handleCloseModal}>
           <div className="project-modal" onClick={(e) => e.stopPropagation()}>
@@ -52,22 +51,32 @@ export default function Projects() {
             </button>
             
             <div className="modal-content">
-              {/* Image at the top */}
               {selectedProject.image && (
                 <div className="modal-image-top">
                   <img src={selectedProject.image} alt={selectedProject.title} />
                 </div>
               )}
               
-              {/* Content below image */}
+              
               <div className="modal-body">
                 <div className="modal-header">
                   <h2>{selectedProject.title}</h2>
                 </div>
+
+                
                 
                 <div className="modal-description">
                   <p>{selectedProject.description}</p>
                 </div>
+
+                {selectedProject.role && (
+                  <div className="modal-role">
+                    <div className="role-badge">
+                      <span className="role-icon">👤</span>
+                      <span className="role-text">{selectedProject.role}</span>
+                    </div>
+                  </div>
+                )}
                 
                 {selectedProject.video && (
                   <div className="modal-video">
