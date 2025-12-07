@@ -16,7 +16,7 @@ export const data = {
       role: "Programador Principal - Programação das mecânicas, conceitos e progressão ",
       description: "O jogo acontece debaixo d'água, onde o jogador enfrenta hordas de criaturas marinhas perigosas. Para sobreviver, é preciso ganhar XP derrotando inimigos e avançando pelas fases, o que ajuda a evoluir e se tornar mais forte. O objetivo final é alcançar e derrotar o boss final, uma criatura mítica das profundezas do oceano. À medida que o jogador avança, as hordas ficam maiores e mais difíceis, exigindo cada vez mais estratégia e habilidade para vencer.",
       image: "images/Capa.png",
-      video: "images/Bubble Survival Demo.mp4",
+      video: "https://youtube.com/embed/8GKQxMm-GN4",
       link: "",
       github: "",
       itch: "https://globalgamejam.org/games/2025/bubbles-survival-1"

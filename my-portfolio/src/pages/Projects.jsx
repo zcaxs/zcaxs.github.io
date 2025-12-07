@@ -69,7 +69,7 @@ export default function Projects() {
                   <p>{selectedProject.description}</p>
                 </div>
 
-                {selectedProject.role && (
+                  {selectedProject.role && (
                   <div className="modal-role">
                     <div className="role-badge">
                       <span className="role-icon">👤</span>
@@ -77,13 +77,29 @@ export default function Projects() {
                     </div>
                   </div>
                 )}
-                
+
                 {selectedProject.video && (
                   <div className="modal-video">
                     <h3>Demonstração</h3>
-                    <video src={selectedProject.video} controls />
+                    <div className="video-container">
+                      {selectedProject.video.includes('youtube.com') || selectedProject.video.includes('youtu.be') ? (
+                        <iframe 
+                          src={selectedProject.video} 
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowFullScreen
+                          title="Video demonstration"
+                        />
+                      ) : (
+                        <video controls>
+                          <source src={selectedProject.video} type="video/mp4" />
+                          Your browser does not support the video tag.
+                        </video>
+                      )}
+                    </div>
                   </div>
                 )}
+
+               
                 
                 <div className="modal-links">
                   <h3>Links</h3>
