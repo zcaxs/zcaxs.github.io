@@ -24,13 +24,13 @@ export const data = {
      {
       id: 2,
       title: "Satan's Miracle",
-      role: "Programador e Produtor - Programação Geral, Cutscenes e Som",
-      description: "Ainda em desenvolvimento neste momento!",
-      image: "",
+      role: "Programador e Produtor - Programação Geral, Cutscenes, Som, UI, 3D Models",
+      description: "Satan’s Miracle é um jogo de terror inspirado em Five Nights at Freddy’s, com um tema natalício sombrio e perturbador.\n\nPreso durante uma noite que deveria ser mágica, o jogador tem de sobreviver até ao amanhecer enquanto é caçado por criaturas natalícias corrompidas: Satanás, uma rena, diabretes, um boneco de neve e um ursinho de peluche amaldiçoado.\n\nGere recursos limitados, observa os padrões dos inimigos e reage rapidamente — um único erro pode ser fatal.",
+      image: "images/satansmiracle.png",
       video: "",
       link: "",
-      github: "",
-      itch: ""
+      github: "https://github.com/zcaxs/Satans-Miracle",
+      itch: "https://vacponto.itch.io/satans-miracle"
     },
     {
       id: 3,
@@ -50,7 +50,7 @@ export const data = {
       description: "Ainda em desenvolvimento neste momento!",
       image: "images/Icon.png",
       video: "",
-      link: "https://www.youtube.com/@vacpontodev",
+      link: "",
       github: "",
       itch: ""
     },
