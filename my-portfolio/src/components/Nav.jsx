@@ -7,7 +7,6 @@ export default function Nav() {
       <div style={{ display: "flex", gap: 12 }}>
         <Link to="/">Home</Link>
         <Link to="/projects">Projetos</Link>
-        <Link to="/skills">Conhecimento</Link>
         <Link to="/research">Educação</Link>
       </div>
     </nav>

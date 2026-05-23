@@ -80,18 +80,10 @@ export default function Home() {
               </div>
             </Link>
             
-            <Link to="/skills" className="nav-button">
-              <span className="nav-icon">⚡</span>
-              <div>
-                <div className="nav-title">Habilidades</div>
-                <div className="nav-desc">Minhas competências</div>
-              </div>
-            </Link>
-            
             <Link to="/research" className="nav-button">
               <span className="nav-icon">🔬</span>
               <div>
-                <div className="nav-title">Pesquisa</div>
+                <div className="nav-title">Educação</div>
                 <div className="nav-desc">Meus estudos</div>
               </div>
             </Link>

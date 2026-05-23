@@ -27,7 +27,7 @@ export const data = {
       role: "Programador e Produtor - Programação Geral, Cutscenes, Som, UI, 3D Models",
       description: "Satan’s Miracle é um jogo de terror inspirado em Five Nights at Freddy’s, com um tema natalício sombrio e perturbador.\n\nPreso durante uma noite que deveria ser mágica, o jogador tem de sobreviver até ao amanhecer enquanto é caçado por criaturas natalícias corrompidas: Satanás, uma rena, diabretes, um boneco de neve e um ursinho de peluche amaldiçoado.\n\nGere recursos limitados, observa os padrões dos inimigos e reage rapidamente — um único erro pode ser fatal.",
       image: "images/satansmiracle.png",
-      video: "",
+      video: "images/SM_SHORTVIDEO.mp4",
       link: "",
       github: "https://github.com/zcaxs/Satans-Miracle",
       itch: "https://vacponto.itch.io/satans-miracle"
@@ -45,13 +45,13 @@ export const data = {
     },
     {
       id: 4,
-      title: "A Broken Family",
+      title: "A Broken Family - ATO I",
       role: "Programador, Produtor de música e Modelação 3D - Criação de mecânicas, modelos 3D e som",
-      description: "Ainda em desenvolvimento neste momento!",
+      description: "A Broken Family segue a história de um rapaz chamado Kyle Grayson e acompanha as diferentes fases da sua vida durante os 3 Atos do jogo, cada ato correspondendo a cada fase da sua vida (infância, adolescência e idade adulta). Após um acidente trágico na família Grayson, a infância de Kyle foi marcada por tristeza, trauma e perda, assombrando-o para o resto da sua vida. Ao longo da mesma, o protagonista é assombrado por uma misteriosa presença, que age como uma segunda mente, influenciando-o de diferentes formas.",
       image: "images/Icon.png",
-      video: "",
+      video: "images/ABF_TRAILER.mp4",
       link: "",
-      github: "",
+      github: "https://github.com/gooberW/ABF-Remake",
       itch: ""
     },
     {
@@ -75,6 +75,17 @@ export const data = {
       link: "",
       github: "",
       itch: ""
+    },
+    {
+      id: 7,
+      title: "Beneath the surface - Fishing Horror Jam",
+      role: "Programador e Produtor - Programação Geral, Cutscenes, Som, UI",
+      description: "Beneath the Surface é um jogo de terror tranquilo sobre pescar sozinho em águas perigosas. Começa-se com capturas simples, trabalhando numa costa enevoada e vendendo o que se consegue. Mas quanto mais se avança, mais estranhas as coisas se tornam. Os peixes aparecem errados. O sonar capta coisas que não deveriam estar ali. Algo se move sob o barco à noite. As pessoas na cidade não dirão muito, apenas o suficiente para o fazer pensar o que realmente há lá em baixo. Continue a pescar e decida até onde está disposto a ir. Algumas coisas são melhores deixadas abaixo da superfície.",
+      image: "images/BTS.png",
+      video: "images/BTS_SHORTVIDEO.mp4",
+      link: "",
+      github: "https://github.com/zcaxs/FishingHorrorJam",
+      itch: "https://vacponto.itch.io/beneath-the-surface"
     }
   ],
   skills: [
